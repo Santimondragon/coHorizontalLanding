@@ -1,5 +1,5 @@
 .section_gap {
-    padding: 120px 0;
+    padding: 50px 0;
     @media (max-width:991px){
         padding: 80px 0;
     }
@@ -153,7 +153,7 @@
         display: block;
         width: 60px;
         height: 60px;
-        @include gradient(90deg, #e93d88 0%,  #e5935a 100%);
+        @include gradient(90deg, $accent-color 0%,  $accent-color2 100%);
         border-radius: 50%;
     }
     &:before {
